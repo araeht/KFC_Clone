@@ -1,4 +1,30 @@
 @import url("../../global.css");
+@import url("https://db.onlinewebfonts.com/c/4e9403b0d7cf02d4dcb241cce29856d2?family=National+2+Condensed");
+@import url("https://db.onlinewebfonts.com/c/7de69a716652a3d82e8e7099fa1ec6a2?family=National+2+Condensed+Bold");
+:root {
+  /* colors */
+  --primary-color: #e4002b;
+  --secondary-color: #000000;
+  --white-color: #ffffff;
+  --light-black: 37, 37, 37;
+
+  /* font size */
+  --font-size-h1: 2.5rem;
+  --font-size-h2: 2rem;
+  --font-size-h3: 1.75rem;
+  --font-size-h4: 1.5rem;
+  --font-size-body: 1rem;
+  --font-size-small: 0.875rem;
+
+  /* font family */
+  --national-condensed: "National 2 Condensed";
+  --national-condensed-bold: "National 2 Condensed bold";
+
+  /* font weight */
+  --font-weight-500: 500;
+  --font-weight-700: 700;
+}
+
 
 .career-nav {
   display: flex;
